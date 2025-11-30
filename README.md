@@ -77,11 +77,12 @@ Ensure the following are installed:
 - Apache Spark  
 - Python 3.x  
 - Python libraries:
-  pandas  
-  numpy  
-  matplotlib  
-  seaborn  
-  pyspark  
+
+  * pandas  
+  * numpy  
+  * matplotlib  
+  * seaborn  
+  * pyspark  
 ---
 
 ## 🗺️ Architecture Overview
