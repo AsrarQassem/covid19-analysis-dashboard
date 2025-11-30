@@ -82,28 +82,6 @@ Ensure the following are installed:
   matplotlib  
   seaborn  
   pyspark  
-
-### **1. Clone the Repository**
-git clone https://github.com/your-username/covid19-analysis-dashboard.git  
-cd covid19-analysis-dashboard
-
-### **2. Load Dataset into HDFS**
-hdfs dfs -mkdir /covid  
-hdfs dfs -put data/covid.csv /covid
-
-### **3. Create Hive Table & Load Data**
-CREATE TABLE covid_data (...);  
-LOAD DATA INPATH '/covid/covid.csv' INTO TABLE covid_data;
-
-### **4. Run Spark Processing**
-spark-submit spark_processing.py
-
-### **5. Train Machine Learning Predictor**
-spark-submit prediction_model.py
-
-### **6. Start the Dashboard**
-python dashboard.py
-
 ---
 
 ## 🗺️ Architecture Overview
