@@ -1,5 +1,5 @@
 
-# COVID-19 Interactive Dashboard & Predictor  
+# 📊 COVID-19 Interactive Dashboard & Predictor  
 An interactive COVID-19 data analysis dashboard and predictive modeling system built using Hadoop, Spark, Hive, and machine learning. The project visualizes global COVID-19 trends, processes large-scale datasets, and forecasts future case counts using regression algorithms.
 
 ---
